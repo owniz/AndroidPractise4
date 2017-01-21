@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_second"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:background="@color/verdeFondo"
+    tools:context="es.jmoral.dam2.practicaEvaluable4.activities.SecondActivity">
+
+    <TextView
+        android:id="@+id/textViewTitulo"
+        android:text="@string/random_buttons"
+        android:textColor="@android:color/white"
+        android:textSize="@dimen/dimen30sp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen16dp"
+        android:layout_centerHorizontal="true" />
+
+    <RelativeLayout
+        android:id="@+id/relativeLayoutBotones"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_centerInParent="true" >
+
+        <TextView
+            android:id="@+id/textViewFase"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="@dimen/dimen20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/dimen16dp"
+            android:layout_centerHorizontal="true"/>
+
+        <Button
+            android:id="@+id/buttonTopLeft"
+            android:layout_width="@dimen/dimen110dp"
+            android:layout_height="@dimen/dimen60dp"
+            android:textStyle="bold"
+            android:background="@drawable/boton"
+            android:textColor="@color/color_texto_boton"
+            android:layout_below="@+id/textViewFase"
+            android:layout_margin="@dimen/dimen10dp" />
+
+        <Button
+            android:id="@+id/buttonTopRight"
+            android:layout_width="@dimen/dimen110dp"
+            android:layout_height="@dimen/dimen60dp"
+            android:textStyle="bold"
+            android:background="@drawable/boton"
+            android:textColor="@color/color_texto_boton"
+            android:layout_below="@+id/textViewFase"
+            android:layout_toRightOf="@+id/buttonTopLeft"
+            android:layout_toEndOf="@+id/buttonTopLeft"
+            android:layout_margin="@dimen/dimen10dp" />
+
+        <Button
+            android:id="@+id/buttonBottomLeft"
+            android:layout_width="@dimen/dimen110dp"
+            android:layout_height="@dimen/dimen60dp"
+            android:textStyle="bold"
+            android:background="@drawable/boton"
+            android:textColor="@color/color_texto_boton"
+            android:layout_below="@+id/buttonTopLeft"
+            android:layout_margin="@dimen/dimen10sp" />
+
+        <Button
+            android:id="@+id/buttonBottomRight"
+            android:layout_width="@dimen/dimen110dp"
+            android:layout_height="@dimen/dimen60dp"
+            android:textStyle="bold"
+            android:background="@drawable/boton"
+            android:textColor="@color/color_texto_boton"
+            android:layout_below="@+id/buttonTopRight"
+            android:layout_toRightOf="@+id/buttonBottomLeft"
+            android:layout_toEndOf="@+id/buttonBottomLeft"
+            android:layout_margin="@dimen/dimen10dp" />
+
+    </RelativeLayout>
+
+    <ProgressBar
+        style="?android:attr/progressBarStyleHorizontal"
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayoutBotones"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="@dimen/dimen14dp"
+        android:maxWidth="@dimen/dimen200dp"
+        android:minWidth="@dimen/dimen200dp" />
+
+    <TextView
+        android:id="@+id/textViewProgreso"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/dimen14dp"
+        android:textColor="@android:color/white"
+        android:textStyle="bold"
+        android:layout_below="@+id/progressBar"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

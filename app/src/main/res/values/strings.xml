@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Random Buttons</string>
+    <string name="desc_jugar">jugar al juego</string>
+    <string name="desc_instrucciones">instruccines del juego</string>
+    <string name="jugar">JUGAR</string>
+    <string name="como_jugar">Cómo jugar</string>
+    <string name="nombre">Nombre</string>
+    <string name="facil">Fácil</string>
+    <string name="medio">Medio</string>
+    <string name="dificil">Dificil</string>
+    <string name="nueva_partida">Opciones de partida</string>
+    <string name="random_buttons">RANDOM BUTTONS</string>
+    <string name="slash">/</string>
+    <string name="fase">"Fase %1$s"</string>
+    <string name="continuar">Continuar jugando</string>
+    <string name="inicio">Volver</string>
+    <string name="fin">Partida finalizada</string>
+    <string name="enhorabuena">"¡Enhorabuena%1$s!\nHas llegado hasta la fase "</string>
+    <string name="explicacion">Aprieta los botones en el orden correcto antes de que termine el tiempo, ten cuidado cada fase nueva aumenta la velocidad.</string>
+    <string name="empty" />
+    <string name="space">" "</string>
+</resources>
